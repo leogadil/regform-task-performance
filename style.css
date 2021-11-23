@@ -262,6 +262,7 @@
 }
 
 .footer {
+  padding: 0 8em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -329,6 +330,15 @@
 }
 
 @media screen and (min-width: 800px) {
+  .footer {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+  }
   .content {
     -webkit-box-align: normal;
         -ms-flex-align: normal;

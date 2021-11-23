@@ -248,6 +248,7 @@
 }
 
 .footer {
+    padding: 0 8em;
     display: flex;
     flex-direction: column;
     background-color: var(--accent);
@@ -304,6 +305,11 @@
 }
 
 @media screen and (min-width: 800px) {
+
+    .footer {
+        flex-direction: row !important;
+        justify-content: space-between !important;
+    }
     .content {
         align-items: normal;
     }
